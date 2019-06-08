@@ -1,0 +1,216 @@
+@font-face {
+    font-family: RSU_Font;
+    src: url("../fonts/RSU\ Text_Bold.ttf");
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.dailitech__wordmark  { 
+    font-family: "RSU_Font";
+    color: white;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    letter-spacing: 2.5px;
+}
+
+.header,
+.footer {
+    background-image: url("../img/bg-vector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.font-33 { 
+    font-size: 33px;
+}
+
+.color__blue {
+    color: #00E2FF;
+}
+
+.color__green { 
+    color: #00F9A6;
+}
+
+.color__pink { 
+    color: #FF50A3;
+}
+
+.color__yellow { 
+    color: #FFD900;
+}
+
+.color__dailitech { 
+    color: #315c97;
+}
+
+.color__text { 
+    color: #575757;
+}
+
+.color__purple { 
+    color: #6a36d1;
+}
+
+.banner__top { 
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.btn__custom-white { 
+
+    background: transparent;
+    border: 2.5px solid white;
+    border-radius: 0;
+    color: white;
+    font-weight: bold;
+    padding: .95em;
+    letter-spacing: 2px;
+}
+.btn__custom-white:hover {
+    background: rgba(0,0,0,.3);
+    color: white;
+    text-shadow: 1px 1px 2px #00E2FF;
+}
+
+.sponsor__container { 
+    background: rgba(0,0,0,.3);
+   
+
+}
+.sponsors { 
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.sponsors .sponsor__item img {
+    max-width: 150px; 
+    opacity: .5;
+}
+
+.content { 
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+.motto { 
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: #575757;
+    font-weight: 300;
+}
+
+.hex__topleft { 
+    position: absolute;
+    left: -200px;
+    width: 350px;
+}
+
+.hex__bottomright {
+    position: absolute;
+    right: -175px;
+    width: 350px;
+}
+
+.text__verticle { 
+    -webkit-text-orientation: upright;
+    -moz-text-orientation: upright;
+    -ms-text-orientation: upright;
+    text-orientation: upright;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+}
+
+.text__subtitle { 
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.89em;
+}
+
+.line { 
+    height: 9.375vw;
+    max-height: 80px;
+    border: 1px solid #FF50A3;
+    width: 0;
+}
+
+.our__services,
+.our__awards,
+.career { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.our__awards,
+.career { 
+    margin-top: 150px;
+}
+
+.services__card .card{ 
+    min-height: 410px;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(165, 165, 165, 0.3);
+}
+
+.circle__left { 
+    position: absolute;
+    left: -290px;
+    z-index: -1;
+}
+
+.circle__right { 
+    position: absolute;
+    right: -290px;
+    z-index: -1;
+}
+
+.triangle__left { 
+    position: absolute;
+    left: -190px;
+    z-index: -1;
+}
+
+.rotate__90 { 
+    transform: rotate(90deg);
+}
+
+
+.benefit__container .card{ 
+    border: none;
+    box-shadow: 0px 3px 6px rgba(165, 165, 165, 0.3);
+    margin-top: 20px;
+}
+.benefit__title { 
+    display: flex;
+    align-items: center;
+}
+.benefit__title i{  
+    font-size: 40px;
+}
+.benefit__title h6{ 
+    margin: 0;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.footer {
+    
+}
