@@ -163,7 +163,7 @@ body {
 }
 
 .services__card .card{ 
-    min-height: 410px;
+    min-height: 480px;
     border: none;
     box-shadow: 0px 3px 6px rgba(165, 165, 165, 0.3);
 }
