@@ -159,6 +159,7 @@ body {
     text-shadow: 0px 0px 3px #FFD900;
     color: #ffb128;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .line { 
@@ -260,6 +261,7 @@ body {
     margin-left: 6px;
     margin-right: 6px;
     transition: all .2s ease;
+  
 }
 
 .map__wrapper { 
