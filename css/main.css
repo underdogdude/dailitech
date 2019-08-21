@@ -12,6 +12,12 @@ body {
     overflow-x: hidden;
 }
 
+.wrapper { 
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .dailitech__wordmark  { 
     font-family: "RSU_Font";
     color: white;
@@ -53,7 +59,7 @@ body {
     color: #315c97;
 }
 
-.color__text { 
+.color__text ,p{ 
     color: #575757;
 }
 
@@ -143,6 +149,18 @@ body {
     line-height: 1.89em;
 }
 
+.text__link { 
+    color: #ffb128;
+    transition: all .2s ease;
+}
+
+.text__link:hover,
+.navbar-nav .nav-item:hover  { 
+    text-shadow: 0px 0px 3px #FFD900;
+    color: #ffb128;
+    text-decoration: none;
+}
+
 .line { 
     height: 9.375vw;
     max-height: 80px;
@@ -152,12 +170,14 @@ body {
 
 .our__services,
 .our__awards,
+.contact,
 .career { 
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .our__awards,
+.contact,
 .career { 
     margin-top: 150px;
 }
@@ -195,7 +215,12 @@ body {
     border: none;
     box-shadow: 0px 3px 6px rgba(165, 165, 165, 0.3);
     margin-top: 20px;
+    
 }
+.benefit__container .card .card-body { 
+    word-wrap: break-word;
+}
+
 .benefit__title { 
     display: flex;
     align-items: center;
@@ -211,6 +236,36 @@ body {
 }
 
 
-.footer {
-    
+@media only screen and (min-width: 768px) {
+    .mansory { 
+        margin-top: -45px;
+    }
+}  
+
+@media only screen and (min-width: 992px) {
+    .mansory { 
+        margin-top: -65px;
+    }
+} 
+
+@media only screen and (min-width: 1200px) {
+    .mansory { 
+        margin-top: -45px;
+    }
+}
+
+
+/* Navbar */
+.navbar-nav .nav-item { 
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: all .2s ease;
+}
+
+.map__wrapper { 
+    height: 100%;
+    min-height: 400px;
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px rgba(38, 70, 239, 0.15);
 }
