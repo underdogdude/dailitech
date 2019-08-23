@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="./css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="./css/vendor/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
@@ -47,7 +48,8 @@
             <div class="container">
                 <div class="banner__top row">
                     <div class="banner__detail col-md-6">
-                        <h1 class="text-white">Transform your <span class="color__blue font-weight-bold">Team</span>
+                        <h1 class="text-white typing__animate">Transform your <span
+                                class="color__blue font-weight-bold">Team</span>
                         </h1>
 
                         <h2 class="font-weight-lighter text-white mt-4">
@@ -58,8 +60,8 @@
                             VIEW SERVICES
                         </a>
                     </div>
-                    <div class="col-md-6">
-                        <img src="./img/all-services.png" alt="" width="100%">
+                    <div class="col-md-6 animated fadeInRight">
+                        <img src="./img/all-services.png" class="slowfloat__animate" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -122,7 +124,7 @@
                 </h1>
 
                 <div class="row services__card">
-                    <div class="col-md-3">
+                    <div class="col-md-3 animated fadeInUp slow">
                         <div class="card">
                             <div class="card-body">
                                 <img src="./img/icon-teambuilding.png" alt="" width="100%">
@@ -139,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 animated fadeInUp slow">
                         <div class="card">
                             <div class="card-body">
                                 <img src="./img/icon-transformation.png" alt="" width="100%">
@@ -159,7 +161,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 animated fadeInUp slow">
                         <div class="card">
                             <div class="card-body">
                                 <img src="./img/icon-optimization.png" alt="" width="100%">
@@ -179,7 +181,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 animated fadeInUp slow">
                         <div class="card">
                             <div class="card-body">
                                 <img src="./img/icon-innovation.png" alt="" width="100%">
@@ -216,34 +218,166 @@
                 </h1>
             </div>
             <img src="./img/triangle.png" alt="" class="triangle__left rotate__90">
-
+            <!-- Slide Container -->
             <div class="row">
-                <div class="col-md-5 ">
-                    <div class="mt-5">
-                        <h1 class="color__purple font-weight-bold">
-                            ACHIEVEMENT
-                        </h1>
-                        <p class="color__text mt-5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ligula fermentum,
-                            dapibus
-                            ex nec, consequat sem. Nunc a sem et nisi fringilla ultrices. Donec sodales euismod tellus
-                            vel
-                            condimentum.
-                        </p>
-                    </div>
+                <!-- 
+                   #   
+                  ##   
+                 # #   
+                   #   
+                   #   
+                   #   
+                 ##### 
+                 -->
+                <div class="mySlides1 animated fadeIn slow">
+                    <div class="row m-2">
+                        <div class="col-md-5">
+                            <div class="mt-5">
+                                <p class="color__text mt-5">
+                                    <strong class="achievement__title color__blue">AWARD</strong>
+                                    <strong>DailiTech proudly gets recognition from AWS since 2017.</strong>
+                                    <ul>
+                                        <li>
+                                            - 2017 achieved AWS Partner Award (Thailand) &mdash; <em>“Think Big”</em>
+                                        </li>
+                                        <li>
+                                            - 2018 achieved AWS Partner Award (ASEAN) &mdash; Innovation
+                                        </li>
+                                        <li>
+                                            - 2018 achieved AWS Partner Award &mdash; Advanced Consulting Partner
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="navigate__slide mt-5">
+                                <button class="btn btn-outline-secondary rounded-0 next" onclick="plusSlides(-1, 0)">
+                                    <i class="fas fa-long-arrow-alt-left"></i>
+                                </button>
 
-                    <div class="navigate__slide mt-5">
-                        <button class="btn btn-outline-secondary rounded-0">
-                            <i class="fas fa-long-arrow-alt-left"></i>
-                        </button>
-                        <button class="btn btn-outline-secondary rounded-0">
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </button>
+                                <button class="btn btn-outline-secondary rounded-0 prev" onclick="plusSlides(1, 0)">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <!-- Img Slide -->
+                        <div class="col-md-6">
+                            <img src="./img/award-demo.png" alt="" width="100%" />
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-6">
-                    <img src="./img/award-demo.png" alt="" width="100%">
+                <!-- 
+                     #####  
+                    #     # 
+                          # 
+                     #####  
+                    #       
+                    #       
+                    ####### 
+                 -->
+                <div class="mySlides1  animated fadeIn slow" >
+                    <div class="row m-2">
+                        <div class="col-md-5 mb-3">
+                            <div class="mt-5">
+                                <p class="color__text mt-5">
+                                    <strong class="achievement__title color__yellow">Milestone</strong>
+                                    <strong>The company has found since 2011 and has a mission to serve customers with
+                                        service mind.</strong>
+                                    <ul>
+                                        <li>
+                                            - 2011 was found by Dr. Vit
+                                        </li>
+                                        <li>
+                                            - 2014 was recognized as AWS Registered Partner
+                                        </li>
+                                        <li>
+                                            - 2015 was recognized as AWS Standard Consulting Partner
+                                        </li>
+                                        <li>
+                                            - 2018 was recognized as AWS Advanced Consulting Partner
+                                        </li>
+                                        <li>
+                                            - 2019 was recognized as AWS Advanced Consulting Partner with Mobile
+                                            Competency,
+                                            Solution Provider, and Public Sector
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="navigate__slide mt-5">
+                                <button class="btn btn-outline-secondary rounded-0 next" onclick="plusSlides(-1, 0)">
+                                    <i class="fas fa-long-arrow-alt-left"></i>
+                                </button>
+
+                                <button class="btn btn-outline-secondary rounded-0 prev" onclick="plusSlides(1, 0)">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <!-- Img Slide -->
+                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="./img/partner-logo.png" alt="" width="50%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 
+                     #####  
+                    #     # 
+                          # 
+                     #####  
+                          # 
+                    #     # 
+                     #####  
+                 -->
+
+                <div class="mySlides1  animated fadeIn slow">
+                    <div class="row m-2">
+                        <div class="col-md-5 mb-3">
+                            <div class="mt-5">
+                                <p class="color__text mt-5">
+                                    <strong class="achievement__title color__pink"> Customer References</strong>
+                                    <strong>DailiTech has been trusted to be a consultant of top listed public company in Stock Exchange of Thailand not limited to following sectors.
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            - Financial, Security, and Insurance
+                                        </li>
+                                        <li>
+                                            - Telecommunication
+                                        </li>
+                                        <li>
+                                            - Property Developer
+                                        </li>
+                                        <li>
+                                            - Media & E-commerce
+                                        </li>
+                                        <li>
+                                            - Retail
+                                        </li>
+                                        <li>
+                                            - Industrial
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="navigate__slide mt-5">
+                                <button class="btn btn-outline-secondary rounded-0 next" onclick="plusSlides(-1, 0)">
+                                    <i class="fas fa-long-arrow-alt-left"></i>
+                                </button>
+
+                                <button class="btn btn-outline-secondary rounded-0 prev" onclick="plusSlides(1, 0)">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <!-- Img Slide -->
+                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="./img/logo-set.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -264,11 +398,11 @@
                         class="text__link font-weight-bold">CONTACT NOW</a>
                 </h5>
             </div>
-            
+
             <div class="row">
                 <div class="col-md-12 col-lg-6">
                     <div class="row benefit__container">
-                        <div class="col-md-6">
+                        <div class="col-md-6 animated fadeIn">
                             <div class="card">
                                 <div class="card-body">
 
@@ -284,7 +418,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 animated fadeIn">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="benefit__title color__green">
@@ -299,7 +433,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 animated fadeIn">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="benefit__title color__pink">
@@ -314,7 +448,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 mansory">
+                        <div class="col-md-6 animated fadeIn mansory">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="benefit__title color__yellow">
@@ -332,7 +466,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-6 d-flex align-items-center">
+                <div class="col-md-12 col-lg-6 d-flex align-items-center animated fadeIn">
                     <img src="./img/people-demo.png" alt="" width="100%">
                 </div>
                 <img src="./img/triangle.png" alt="" class="circle__right ">
@@ -364,9 +498,10 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <div class="map__wrapper">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15502.046481027479!2d100.52808776719257!3d13.747991877389154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29eca537cd647%3A0xed51be8f5dad24ee!2sDailiTech!5e0!3m2!1sen!2sth!4v1566400753819!5m2!1sen!2sth"
-                        width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15502.046481027479!2d100.52808776719257!3d13.747991877389154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29eca537cd647%3A0xed51be8f5dad24ee!2sDailiTech!5e0!3m2!1sen!2sth!4v1566400753819!5m2!1sen!2sth"
+                            width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -432,6 +567,30 @@
             }
         });
     });
+
+    var slideIndex = [1, 1];
+    var slideId = ["mySlides1"]
+    showSlides(1, 0);
+
+    function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+    }
+
+    function showSlides(n, no) {
+
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {
+            slideIndex[no] = 1
+        }
+        if (n < 1) {
+            slideIndex[no] = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex[no] - 1].style.display = "block";
+    }
 </script>
 
 </html>
