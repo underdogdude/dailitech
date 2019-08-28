@@ -342,3 +342,26 @@ p, li , ul {
     font-size: 28px;
     display: block;
 }
+
+
+.px-8px { 
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .last2__feature {
+        margin-top: 18px;
+    }
+    .last1__feature { 
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .mt-xs-20px { 
+        margin-top: 20px;
+    }
+}
+
