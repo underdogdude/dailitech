@@ -12,6 +12,11 @@ body {
     overflow-x: hidden;
 }
 
+.card { 
+    box-shadow: 0px 3px 6px rgba(165, 165, 165, 0.3);
+    border: none;
+}
+
 ul,li { 
     list-style: none;
     padding-left: 0px;
@@ -373,14 +378,15 @@ p, li , ul {
     height: 60px;
     border-width: 2px;
     border-radius: 0;
-    margin-top: 5em;
     transition: all 0.6s ease;
     color: #fff;
-    background: #6a36d1;
+    background-image: linear-gradient(90deg, #423fe2, #8330c6);
+    border: none;
 }
 
 .case__container button:hover {
     color: #fff;
+    text-shadow: 1px 1px 2px #ffd900;
 }
 
 .case__container .building { 
